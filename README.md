@@ -259,7 +259,7 @@ Investigate and resolve SSL configuration issues to ensure secure connections.
 ---
 
 ## Risk Assessment:
-The identified vulnerabilities, while encountered, were effectively mitigated by the existing security measures. As such, the overall risk of a successful exploit is low. The security team's efforts in implementing and maintaining these measures are commendable.
+The identified vulnerabilities, while encountered, were effectively mitigated by the existing security measures. As such, the overall risk of a successful exploit is medium. The security team's efforts in implementing and maintaining these measures are commendable.
 
 
 ---
