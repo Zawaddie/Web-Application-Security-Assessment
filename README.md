@@ -1,6 +1,13 @@
 # Web-Application-Security-Assessment
 A web application security assessment project demonstrating vulnerability identification, penetration testing methodology, and mitigation recommendations based on industry best practices from the OWASP.
 
+**ACHIEVED:**
+• Conducted a web application penetration test to identify security vulnerabilities affecting a simulated company application.
+• Used open-source security testing tools such as OWASP ZAP and Nmap to perform vulnerability scanning and manual testing.
+• Identified vulnerabilities and security misconfigurations.
+• Documented findings and mitigation recommendations following security practices from the OWASP.
+• Produced a professional penetration testing report including risk analysis and remediation strategies.
+
 ---
 
 ## Introduction
