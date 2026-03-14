@@ -106,6 +106,74 @@ IPv6 :  2a02:4780:11:762:0:c63:aa01
 
 ---
 
+# Security Assessment Report
+
+## Summary of Findings
+
+These findings provide valuable insights into potential vulnerabilities and security gaps within the assessed system. Each finding should be carefully addressed to enhance the overall security posture.
+
+---
+
+## Findings Overview
+
+| ID  | Vulnerability | Severity | Status |
+|----|---------------|---------|--------|
+| F01 | Weak Password Policy | High | Confirmed |
+| F02 | Missing Security Headers | Medium | Confirmed |
+| F03 | Server Banner Disclosure | Low | Confirmed |
+| F04 | Incorrect Error Handling | Low | Confirmed |
+| F05 | `/robots.txt` Entry `/login.php` | Low | Confirmed |
+| F06 | Uncommon Header `platform` | Low | Confirmed |
+| F07 | File Path Exposure via E-Tags | Low | Confirmed |
+| F08 | `alt-svc` Header | Informational | Confirmed |
+| F09 | Unpresent CGI Directories | Informational | Confirmed |
+| F10 | SSL Negotiation Issue | Informational | Confirmed |
+
+---
+
+# Detailed Findings
+
+## F01 – Weak Password Policy
+The password policy could be strengthened to better protect user accounts from unauthorized access.
+
+**Recommendation**
+
+Implement stronger password requirements, such as:
+
+- Minimum password length
+- Complexity requirements
+- Password expiration policies
+- Account lockout after repeated failed login attempts
+
+---
+
+## F02 – Missing Security Headers
+
+### X-Frame-Options Header Not Set
+Additional measures could be taken to guard against a specific type of attack known as **clickjacking**.
+
+**Recommendation**
+
+Implement the `X-Frame-Options` header to prevent the site from being embedded in malicious frames.
+
+
+### X-Content-Type-Options Header Not Set
+Some adjustments could be made to ensure that files are interpreted correctly, reducing the risk of certain types of attacks.
+
+**Recommendation**
+
+Ensure files are interpreted correctly by implementing: **X-Content-Type-Options: nosniff**
+
+
+### Strict-Transport-Security Header Not Defined
+The **Strict-Transport-Security (HSTS)** HTTP header is not defined, potentially leaving the application vulnerable to certain types of attacks.
+
+**Recommendation**
+
+Implement the HSTS header: Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+
+
 ## F03 – Server Banner Disclosure
 
 Information about the server's software and version is exposed, which could be a potential risk.
