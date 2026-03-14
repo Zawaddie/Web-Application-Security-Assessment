@@ -1,12 +1,13 @@
 # Web-Application-Security-Assessment
 A web application security assessment project demonstrating vulnerability identification, penetration testing methodology, and mitigation recommendations based on industry best practices from the OWASP.
 
-**ACHIEVED:**
-• Conducted a web application penetration test to identify security vulnerabilities affecting a simulated company application.
-• Used open-source security testing tools such as OWASP ZAP and Nmap to perform vulnerability scanning and manual testing.
-• Identified vulnerabilities and security misconfigurations.
-• Documented findings and mitigation recommendations following security practices from the OWASP.
-• Produced a professional penetration testing report including risk analysis and remediation strategies.
+**OBJECTIVES ACHIEVED:**
+
+- Conducted a web application penetration test to identify security vulnerabilities affecting a simulated company application.
+- Used open-source security testing tools such as OWASP ZAP and Nmap to perform vulnerability scanning and manual testing.
+- Identified vulnerabilities and security misconfigurations.
+- Documented findings and mitigation recommendations following security practices from the OWASP.
+- Produced a professional penetration testing report including risk analysis and remediation strategies.
 
 ---
 
@@ -23,7 +24,7 @@ The scope of this penetration test included a thorough examination of the web as
 Due to the nature of the black-box testing approach, the assessment was conducted with no prior knowledge of the internal architecture, configurations, or specifics of the target environment. As a result, certain internal controls and security measures that may be in place were not directly assessed. Additionally, the scope did not extend to testing any mobile application that may be associated with the web platform.
 
 ## Objectives
-The primary objectives of this penetration test were:
+The primary objectives of this penetration test was to:
 1. To identify and exploit potential vulnerabilities within the web application layer.
 2. To evaluate the effectiveness of existing security controls in mitigating potential threats.
 3. To assess the risk of unauthorized access, data exposure, or other security breaches.
@@ -41,6 +42,7 @@ The testing approach followed a black-box testing methodology, where no specific
 ## Standards and Frameworks:
 
 The testing process adhered to established industry standards and frameworks. The frameworks provided a structured approach to identifying and addressing potential security gaps. 
+
 These includes:
 - The Cyber Kill Chain is a concept that outlines the stages of a cyberattack from the initial reconnaissance phase to the final objective of the attacker. It provided a structured framework for understanding and analyzing the various steps an attacker might take in a targeted cyber intrusion.
 - OWASP (Open Web Application Security Project) guidelines for web application security testing.
